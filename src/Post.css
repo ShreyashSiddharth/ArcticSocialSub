@@ -1,0 +1,36 @@
+.post{
+    background-color: white;
+    padding: 0.938rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.625rem;
+}
+.post__header{
+    display: flex;
+    margin-top: 0.625rem;
+     
+}
+.post__info{
+    margin-left: 0.625rem;
+}
+.post__info > p{
+    font-size: 0.75rem;
+    color: gray;
+}
+.post__body{
+    overflow-wrap: anywhere;
+}
+.post__buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width : 300px){
+    .post{
+        background-color: white;
+        padding: 0.838rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        border-radius: 0.625rem;
+    }
+    
+}
